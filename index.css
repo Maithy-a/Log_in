@@ -1,0 +1,53 @@
+
+.logIn{
+    border-radius: 5px;
+    display: flex;padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    justify-content: center;align-content: center;
+    background-color: #537bfd;
+}
+.sidepanel{
+    background-color:#1565f8e7;
+    color:#fff;padding: 20px;
+    width: 200px;height: 500px;
+    border-radius: 5px 0 0 5px ;
+    box-shadow: 0 0 15px #1b1a1a;
+}
+.signup input[type="submit"]{
+    padding: 10px;width:50%;
+    border: none;border-radius: 5px;
+}
+.signup input[type="submit"]:hover{
+    box-shadow: 0px 2px 5px #242323;
+}
+.sidepanel .Info{
+    line-height: 1.4rem;height: 300px;
+}
+.center{
+   padding: 20px;background-color: #e5f7fc;
+    width: 380px;border-radius: 0 5px 5px 0;
+    box-shadow: 2px 0 12px #1b1a1a;
+
+}
+.center h2{
+    color: #0084ff;font-size: 36px;
+}
+.inputs{
+    height: 320px;width: 350px;
+    line-height: 2.8rem;
+}
+input[type=email],[type="password"],[type="text"]{
+    padding: 10px;width: 100%;
+    border-radius: 5px;
+    border: 1px solid #616161ce;
+}
+.submit input[type="Submit"]{
+    padding: 10px;font-size: 16px;
+    border: solid 1px #0084ff;
+    color: #0084ff;
+    background-color: white;
+    border-radius: 5px;width: 375px;
+}
+.submit input[type="Submit"]:hover{
+    box-shadow: 0px 2px 5px #0084ff;
+}
